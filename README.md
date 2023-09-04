@@ -77,15 +77,13 @@ La API estará disponible en http://localhost:5000/books.
 A continuación, se describen las rutas principales de la API:
 
 - `GET /books`: Obtiene una lista de todos los libros disponibles en la biblioteca.
-- `GET /books/{id}`: Obtiene información detallada sobre un libro específico identificado por su ID.
-- `POST /books`: Permite agregar un nuevo libro a la biblioteca.
-- `PUT /books/{id}`: Actualiza la información de un libro existente.
-- `DELETE /books/{id}`: Elimina un libro de la biblioteca.
+- `POST /books/add-book`: Permite agregar un nuevo libro a la biblioteca.
+- `POST /books/add-books`: Permite agregar una lista de libros a la biblioteca.
+- `PUT /books/edit/{id}`: Actualiza la información de un libro existente.
+- `DELETE /books/delete/{id}`: Elimina un libro de la biblioteca.
 - `GET /books/by-author/{author}`: Busca libros por autor, proporcionando una lista de libros escritos por el autor especificado.
 - `GET /books/by-genre/{genre}`: Filtra libros por género, devolviendo una lista de libros que pertenecen al género especificado.
 - `GET /books/search?q={query}`: Realiza una búsqueda de libros utilizando una consulta de búsqueda proporcionada en el parámetro `q`.
-- `POST /books/{id}/reviews`: Permite a los usuarios agregar reseñas a un libro específico.
-- `GET /books/{id}/reviews`: Obtiene todas las reseñas de un libro específico.
 
 Cada ruta tiene su propia funcionalidad y parámetros específicos. Consulta la documentación detallada de cada ruta para obtener más información sobre cómo utilizarlas.
 
@@ -107,7 +105,6 @@ Aprecio las contribuciones! Si deseas mejorar este proyecto, sigue estos pasos:
 
 ## Licencia
 
-Este proyecto está bajo la licencia [nombre de la licencia]. Consulta el archivo LICENSE para obtener más detalles.
 
-Gracias por tu interés en nuestro proyecto. ¡Esperamos que sea útil para ti y tu equipo!
+
 
