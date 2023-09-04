@@ -105,6 +105,12 @@ Aprecio las contribuciones! Si deseas mejorar este proyecto, sigue estos pasos:
 
 ## Licencia
 
+## Licencia
+
+Este proyecto se distribuye como software no licenciado ("UNLICENSED"). Esto significa que no estás sujeto a ninguna licencia específica y tienes total libertad para utilizar, modificar y distribuir el código de acuerdo con tus propias necesidades. Ten en cuenta que el proyecto se proporciona tal como está y sin garantías. 
+
+
+
 
 
 
